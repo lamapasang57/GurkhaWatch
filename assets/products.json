@@ -1,0 +1,50 @@
+{
+    "products": [
+        {
+            "id": "gurkha-ladies-watch-golden-mix",
+            "name": "Gurkha Ladies Watch Golden Mix",
+            "price": "$24,250",
+            "description": "Gurkha Ladies Watch Golden Mixは、単に時間を示すだけでなく、あなたの人格をも映し出す時計です",
+            "features": "・5ATM 防水<br>・ サファイアクリスタルガラス<br>・日本製ミヨタムーブメント<br>・316Lステンレススチール製<br>・3年国際保証付き",
+            "quote": "Gurkha Ladies Watch Golden Mix は、ネパールの勇気と現代工学の融合です。この時計に搭載された G200ムーブメント は、高い信頼性と精密さの象徴であり、時間に対するあなたの誠実な姿勢を尊重します。「Guru (グル) 」という名前は、ネパールの精神、知恵、そしてリーダーシップの深い象徴を表しています。",
+            "images": [
+                "assets/girl image/IMG_3062-Enhanced-NR-copy-scaled.jpg",
+                "assets/girl image/IMG_3087-copy-scaled.jpg",
+                "assets/girl image/img_3088-copy-scaled.jpg",
+                "assets/girl image/ladies-watch-copy-scaled.jpg"
+            ]
+        },
+        {
+            "id": "gold-mesh-black",
+            "name": "Gold Mesh Black",
+            "price": "$19,000",
+            "description": "Gold Mesh Black は、単に時間を示すだけでなく、あなたの人格をも映し出す時計です",
+            "features": "・50M防水<br>・ サファイアクリスタルガラス<br>・316Lステンレススチール製<br>・2年国際保証付き",
+            "quote": "Gold Mesh Black Watch は、ネパールの勇気と現代工学の融合です。この時計に搭載された G200ムーブメント は、高い信頼性と精密さの象徴であり、時間に対するあなたの誠実な姿勢を尊重します。「Guru (グル) 」という名前は、ネパールの精神、知恵、そしてリーダーシップの深い象徴を表しています。",
+            "images": [
+                "assets/girl image/Gold Mesh Black/golden.jpg",
+                "assets/girl image/Gold Mesh Black/gold-ladies-1.jpg",
+                "assets/girl image/Gold Mesh Black/gold-ladies2.jpg",
+                "assets/girl image/Gold Mesh Black/gm1.jpg",
+                "assets/girl image/Gold Mesh Black/gm2.jpg",
+                "assets/girl image/Gold Mesh Black/gm3.jpg",
+                "assets/girl image/Gold Mesh Black/RGBL.jpg"
+            ]
+        },
+        {
+            "id": "black-mesh-black",
+            "name": "Black Mesh Black",
+            "price": "$19,000",
+            "description": "Black Mesh Black は、単に時間を示すだけでなく、あなたの人格をも映し出す時計です",
+            "features": "・50M防水<br>・ サファイアクリスタルガラス<br>・316Lステンレススチール製<br>・2年国際保証付き",
+            "quote": "Black Mesh Black Watch は、ネパールの勇気と現代工学の融合です。この時計に搭載された G200ムーブメント は、高い信頼性と精密さの象徴であり、時間に対するあなたの誠実な姿勢を尊重します。「Guru (グル) 」という名前は、ネパールの精神、知恵、そしてリーダーシップの深い象徴を表しています。",
+            "images": [
+                "assets/girl image/Black Mesh Black/black-mesh-2.jpg",
+                "assets/girl image/Black Mesh Black/bm1.jpg",
+                "assets/girl image/Black Mesh Black/bm2.jpg",
+                "assets/girl image/Black Mesh Black/bm3.jpg",
+                "assets/girl image/Black Mesh Black/RGBL.jpg"
+            ]
+        }
+    ]
+}
