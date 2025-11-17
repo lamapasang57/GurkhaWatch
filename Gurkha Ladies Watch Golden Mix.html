@@ -76,21 +76,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">
-                    <div class="product-slider owl-carousel">
-                        <div class="item">
-                            <img src="assets/girl image/IMG_3062-Enhanced-NR-copy-scaled.jpg" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="assets/girl image/IMG_3087-copy-scaled.jpg" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="assets/girl image/img_3088-copy-scaled.jpg" alt="">
-                        </div>
-                        <div class="item">
-                            <img src="assets/girl image/ladies-watch-copy-scaled.jpg" alt="">
-                        </div>
-                    </div>
+                <div class="left-images">
+                    <img src="assets/girl image/IMG_3062-Enhanced-NR-copy-scaled.jpg" alt="">
+                    <img src="assets/girl image/IMG_3087-copy-scaled.jpg" alt="">
+                    <img src="assets/girl image/img_3088-copy-scaled.jpg" alt="">
+                    <img src="assets/girl image/ladies-watch-copy-scaled.jpg" alt="">
                 </div>
+            </div>
             <div class="col-lg-4">
                 <div class="right-content">
                     <h4>Gurkha Ladies Watch <br> Golden Mix</h4>
@@ -123,7 +115,7 @@
                     </div>
                     <div class="total">
                         <h4>合計: $18000</h4>
-                        <div class="main-border-button"><a href="#" id="add-to-cart">🛒 カートに追加</a></div>
+                        <div class="main-border-button"><a href="#">🛒 カートに追加</a></div>
                     </div>
                 </div>
             </div>
@@ -169,28 +161,21 @@
     <script src="assets/js/custom.js"></script>
 
     <script>
+
         $(function() {
-            $('#add-to-cart').on('click', function(e) {
-                e.preventDefault();
-
-                var productName = $('.right-content h4').text().trim();
-                var priceString = $('.right-content .price').text().trim();
-                var price = parseFloat(priceString.replace(/[^0-9.-]+/g,""));
-                var quantity = parseInt($('input[name="quantity"]').val());
-
-                var product = {
-                    name: productName,
-                    price: price,
-                    quantity: quantity
-                };
-
-                var cart = JSON.parse(localStorage.getItem('cart')) || [];
-                cart.push(product);
-                localStorage.setItem('cart', JSON.stringify(cart));
-
-                alert('Product added to cart!');
+            var selectedClass = "";
+            $("p").click(function(){
+            selectedClass = $(this).attr("data-rel");
+            $("#portfolio").fadeTo(50, 0.1);
+                $("#portfolio div").not("."+selectedClass).fadeOut();
+            setTimeout(function() {
+              $("."+selectedClass).fadeIn();
+              $("#portfolio").fadeTo(50, 1);
+            }, 500);
+                
             });
         });
+
     </script>
 
   </body>
